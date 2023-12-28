@@ -13,3 +13,7 @@ In the central alarm, the outputs of each zone are checked, for whether the sire
 Also in the central alarm we have as input 1 toggle switch which is for Activation-Deactivation of the entire alarm and as output 4 LEDs and 1 siren.
 The alarm checks if the 4th switch is in position '1' and if it is then it checks the inputs one by one and lights the 4th led. If it is '0'- off then no control is done and the Led is off.
 So, depending on whether a zone hits, an LED lights up for each zone that hits.
+
+![image](https://github.com/dimitrisanta/FPGA_Alarm/assets/23315629/bf066e6c-092f-44ba-9902-7f81e3b852e6)
+
+![image](https://github.com/dimitrisanta/FPGA_Alarm/assets/23315629/43cd7357-303e-4845-83a5-fa893586b5d1)
