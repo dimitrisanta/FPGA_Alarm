@@ -1,5 +1,5 @@
 # FPGA_Alarm
-3 zone alarm on an Altera Development FPGA board with VHDL
+2 zone alarm on an Altera Development FPGA board with VHDL
 
 ZONES
 
