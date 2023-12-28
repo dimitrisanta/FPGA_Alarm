@@ -2,10 +2,13 @@
 3 zone alarm on an Altera Development FPGA board with VHDL
 
 ZONES
+
 The zones consist of 2 contacts (push button) each, where when they are pressed, a logical '1' is sent to the output of each module of each zone so that the alarm sounds.
 Unless one of the On / Off switches that each zone of the alarm has is off, in which case a logic '0' will be sent to the output.
 Also, depending on the state of these switches, an LED lights up where it is lit if the zone is active, i.e. the switch is in position '1'.
+
 CENTRAL ALARM
+
 In the central alarm, the outputs of each zone are checked, for whether the siren will sound.
 Also in the central alarm we have as input 1 toggle switch which is for Activation-Deactivation of the entire alarm and as output 4 LEDs and 1 siren.
 The alarm checks if the 4th switch is in position '1' and if it is then it checks the inputs one by one and lights the 4th led. If it is '0'- off then no control is done and the Led is off.
